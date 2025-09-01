@@ -10,8 +10,8 @@
 
 
 11. Ejemplo mínimo de cada pilar de POO en TS (una línea de código por concepto)
-    -Encapsulamiento: class Persona { private nombre: string; constructor(nombre: string) { this.nombre = nombre; } }.
-    -Abstraccion: abstract class Animal { abstract hacerSonido(): void; }.
-    -Herencia: class Perro extends Animal { hacerSonido() { console.log("Guau"); } }.
-    -Polimorfismo: const animal: Animal = new Perro(); animal.hacerSonido();.
+-Encapsulamiento: class Persona { private nombre: string; constructor(nombre: string) { this.nombre = nombre; } }.
+-Abstraccion: abstract class Animal { abstract hacerSonido(): void; }.
+-Herencia: class Perro extends Animal { hacerSonido() { console.log("Guau"); } }.
+-Polimorfismo: const animal: Animal = new Perro(); animal.hacerSonido();.
 

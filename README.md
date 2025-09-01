@@ -135,3 +135,12 @@ el polimorfismo es un concepto orientado a objetos que permiten tratar objetos d
   - Herencia: class Perro extends Animal { hacerSonido() { console.log("Guau"); } }.
   - Polimorfismo: const animal: Animal = new Perro(); animal.hacerSonido();.
 
+12. Investigar y realizar la configuración de TypeScript con Node JS y VS Code
+  - Primero intalamos TypeScript en su forma global con: ( npm install -g typescript )
+  - Asegurate de tener el Node.js ya instalado
+  - Podemos hacer la verificacion de la instalacion con ( tsc -v )
+  - Para configurar el proyecto de Node.js con Type Script debemos abrir la carpeta donde vamos abrir el codigo e inicializamos un nuevo proyecto usando: ( npm init -y )
+  - Instalamos TS como una dependencia usando ( npm install -D typescript @types/node ), @types/node nos porporciona los tipos para Node.js y tsconfig.json es el nombre que le daremos al proyecto o archivo json.
+  - Crea una carpeta src en tu proyecto y dentro de ella, crea un archivo con extensión .ts, por ejemplo, app.ts.
+  - Escribe tu código TypeScript en este archivo.
+  - Para compilar tu código, ejecuta en la terminal: ( npx tsc )

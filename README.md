@@ -10,6 +10,7 @@
 
 
 11. Ejemplo mínimo de cada pilar de POO en TS (una línea de código por concepto)
+    hol.
   -Encapsulamiento: class Persona { private nombre: string; constructor(nombre: string) { this.nombre = nombre; } }
   -Abstraccion: abstract class Animal { abstract hacerSonido(): void; }
   -Herencia: class Perro extends Animal { hacerSonido() { console.log("Guau"); } }

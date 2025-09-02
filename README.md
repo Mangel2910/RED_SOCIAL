@@ -1,5 +1,5 @@
 # README
-preguntas_tipescript
+Solucion Taller TypeScript Social Network
 
 1.¿Qué es TypeScript y en qué se diferencia de JavaScript?
 respuesta: 

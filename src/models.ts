@@ -9,6 +9,7 @@ export class Post {
     constructor(
         public author: string,
         public content: string,
+        
         public timestamp: Date = new Date()
     ) {}
 }

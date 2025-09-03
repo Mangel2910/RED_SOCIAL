@@ -1,3 +1,5 @@
+// este es el index del programa 
+
 import { showMenu, handleInput } from './ui.js';
 
 

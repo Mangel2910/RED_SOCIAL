@@ -2,11 +2,13 @@ import { users, posts, currentUser, loginUser, logoutUser } from './data.js';
 import { User, Post } from './models.js';
 
 export function createUser(username: string): string {
-    if (users.has(username)) return '❌ Usuario ya existe.';
+    if (users.has(username)) return '❌ Usuario ya existe, intentelo de nuevo';
     const user = new User(username);
     users.set(username, user);
     return '✅ Usuario creado.';
 }
+
+
 
 export function login(username: string): string {
     const user = users.get(username);
